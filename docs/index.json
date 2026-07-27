@@ -1,0 +1,174 @@
+{
+  "title": "ADK REST API Reference",
+  "servers": [],
+  "operations": [
+    {
+      "operationId": "health_health_get",
+      "method": "GET",
+      "path": "/health",
+      "tags": [],
+      "summary": "Health",
+      "file": "health-GET.md"
+    },
+    {
+      "operationId": "version_version_get",
+      "method": "GET",
+      "path": "/version",
+      "tags": [],
+      "summary": "Version",
+      "file": "version-GET.md"
+    },
+    {
+      "operationId": "list_apps_list_apps_get",
+      "method": "GET",
+      "path": "/list-apps",
+      "tags": [],
+      "summary": "List Apps",
+      "file": "listApps-GET.md"
+    },
+    {
+      "operationId": "get_adk_app_info_apps__app_name__app_info_get",
+      "method": "GET",
+      "path": "/apps/{app_name}/app-info",
+      "tags": [],
+      "summary": "Get Adk App Info",
+      "file": "apps-appName-appInfo-GET.md"
+    },
+    {
+      "operationId": "get_session_apps__app_name__users__user_id__sessions__session_id__get",
+      "method": "GET",
+      "path": "/apps/{app_name}/users/{user_id}/sessions/{session_id}",
+      "tags": [],
+      "summary": "Get Session",
+      "file": "apps-appName-users-userId-sessions-sessionId-GET.md"
+    },
+    {
+      "operationId": "create_session_with_id_apps__app_name__users__user_id__sessions__session_id__post",
+      "method": "POST",
+      "path": "/apps/{app_name}/users/{user_id}/sessions/{session_id}",
+      "tags": [],
+      "summary": "Create Session With Id",
+      "file": "apps-appName-users-userId-sessions-sessionId-POST.md"
+    },
+    {
+      "operationId": "delete_session_apps__app_name__users__user_id__sessions__session_id__delete",
+      "method": "DELETE",
+      "path": "/apps/{app_name}/users/{user_id}/sessions/{session_id}",
+      "tags": [],
+      "summary": "Delete Session",
+      "file": "apps-appName-users-userId-sessions-sessionId-DELETE.md"
+    },
+    {
+      "operationId": "update_session_apps__app_name__users__user_id__sessions__session_id__patch",
+      "method": "PATCH",
+      "path": "/apps/{app_name}/users/{user_id}/sessions/{session_id}",
+      "tags": [],
+      "summary": "Update Session",
+      "file": "apps-appName-users-userId-sessions-sessionId-PATCH.md"
+    },
+    {
+      "operationId": "list_sessions_apps__app_name__users__user_id__sessions_get",
+      "method": "GET",
+      "path": "/apps/{app_name}/users/{user_id}/sessions",
+      "tags": [],
+      "summary": "List Sessions",
+      "file": "apps-appName-users-userId-sessions-GET.md"
+    },
+    {
+      "operationId": "create_session_apps__app_name__users__user_id__sessions_post",
+      "method": "POST",
+      "path": "/apps/{app_name}/users/{user_id}/sessions",
+      "tags": [],
+      "summary": "Create Session",
+      "file": "apps-appName-users-userId-sessions-POST.md"
+    },
+    {
+      "operationId": "get_artifact_version_metadata_apps__app_name__users__user_id__sessions__session_id__artifacts__artifact_name__versions__version_id__metadata_get",
+      "method": "GET",
+      "path": "/apps/{app_name}/users/{user_id}/sessions/{session_id}/artifacts/{artifact_name}/versions/{version_id}/metadata",
+      "tags": [],
+      "summary": "Get Artifact Version Metadata",
+      "file": "apps-appName-users-userId-sessions-sessionId-artifacts-artifactName-versions-versionId-metadata-GET.md"
+    },
+    {
+      "operationId": "list_artifact_versions_metadata_apps__app_name__users__user_id__sessions__session_id__artifacts__artifact_name__versions_metadata_get",
+      "method": "GET",
+      "path": "/apps/{app_name}/users/{user_id}/sessions/{session_id}/artifacts/{artifact_name}/versions/metadata",
+      "tags": [],
+      "summary": "List Artifact Versions Metadata",
+      "file": "apps-appName-users-userId-sessions-sessionId-artifacts-artifactName-versions-metadata-GET.md"
+    },
+    {
+      "operationId": "save_artifact_apps__app_name__users__user_id__sessions__session_id__artifacts_post",
+      "method": "POST",
+      "path": "/apps/{app_name}/users/{user_id}/sessions/{session_id}/artifacts",
+      "tags": [],
+      "summary": "Save Artifact",
+      "file": "apps-appName-users-userId-sessions-sessionId-artifacts-POST.md"
+    },
+    {
+      "operationId": "list_artifact_names_apps__app_name__users__user_id__sessions__session_id__artifacts_get",
+      "method": "GET",
+      "path": "/apps/{app_name}/users/{user_id}/sessions/{session_id}/artifacts",
+      "tags": [],
+      "summary": "List Artifact Names",
+      "file": "apps-appName-users-userId-sessions-sessionId-artifacts-GET.md"
+    },
+    {
+      "operationId": "load_artifact_version_apps__app_name__users__user_id__sessions__session_id__artifacts__artifact_name__versions__version_id__get",
+      "method": "GET",
+      "path": "/apps/{app_name}/users/{user_id}/sessions/{session_id}/artifacts/{artifact_name}/versions/{version_id}",
+      "tags": [],
+      "summary": "Load Artifact Version",
+      "file": "apps-appName-users-userId-sessions-sessionId-artifacts-artifactName-versions-versionId-GET.md"
+    },
+    {
+      "operationId": "list_artifact_versions_apps__app_name__users__user_id__sessions__session_id__artifacts__artifact_name__versions_get",
+      "method": "GET",
+      "path": "/apps/{app_name}/users/{user_id}/sessions/{session_id}/artifacts/{artifact_name}/versions",
+      "tags": [],
+      "summary": "List Artifact Versions",
+      "file": "apps-appName-users-userId-sessions-sessionId-artifacts-artifactName-versions-GET.md"
+    },
+    {
+      "operationId": "load_artifact_apps__app_name__users__user_id__sessions__session_id__artifacts__artifact_name__get",
+      "method": "GET",
+      "path": "/apps/{app_name}/users/{user_id}/sessions/{session_id}/artifacts/{artifact_name}",
+      "tags": [],
+      "summary": "Load Artifact",
+      "file": "apps-appName-users-userId-sessions-sessionId-artifacts-artifactName-GET.md"
+    },
+    {
+      "operationId": "delete_artifact_apps__app_name__users__user_id__sessions__session_id__artifacts__artifact_name__delete",
+      "method": "DELETE",
+      "path": "/apps/{app_name}/users/{user_id}/sessions/{session_id}/artifacts/{artifact_name}",
+      "tags": [],
+      "summary": "Delete Artifact",
+      "file": "apps-appName-users-userId-sessions-sessionId-artifacts-artifactName-DELETE.md"
+    },
+    {
+      "operationId": "patch_memory_apps__app_name__users__user_id__memory_patch",
+      "method": "PATCH",
+      "path": "/apps/{app_name}/users/{user_id}/memory",
+      "tags": [],
+      "summary": "Patch Memory",
+      "file": "apps-appName-users-userId-memory-PATCH.md"
+    },
+    {
+      "operationId": "run_agent_run_post",
+      "method": "POST",
+      "path": "/run",
+      "tags": [],
+      "summary": "Run Agent",
+      "file": "run-POST.md"
+    },
+    {
+      "operationId": "run_agent_sse_run_sse_post",
+      "method": "POST",
+      "path": "/run_sse",
+      "tags": [],
+      "summary": "Run Agent Sse",
+      "file": "runSse-POST.md"
+    }
+  ]
+}
